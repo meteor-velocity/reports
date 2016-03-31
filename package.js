@@ -3,7 +3,7 @@
 Package.describe({
   name: 'velocity:reports',
   summary: 'Test reporting functionality that can be reused by any testing framework',
-  version: '1.0.0-rc.3',
+  version: '1.0.0',
   git: 'https://github.com/meteor-velocity/velocity-reports.git',
   testOnly: true
 });
@@ -18,7 +18,7 @@ Package.on_use(function (api) {
       CLIENT = 'client',
       BOTH = [CLIENT, SERVER];
 
-  api.versionsFrom('1.3-rc.3');
+  api.versionsFrom('1.3');
   api.use('ecmascript');
   api.use('webapp');
   api.use('mongo');
